@@ -22,12 +22,12 @@ variable "region" {
 variable "resource_group_name" {
   type        = string
   description = "tcbreakglass"
-  default = "tcbrakingglass"
+  default = "tcbrakingglass2"
 }
 
 variable "resource_group_location" {
   type        = string
-  description = "westus3"
+  description = "wedhfhstus3"
   default = "westus3"
 }
 
