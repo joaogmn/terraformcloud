@@ -40,5 +40,5 @@ variable "nsg_name" {
 variable "vnet_name" {
   type        = string
   description = "westus3"
-  default = "vnet_cicd_pilot"
+  default = "vnet_cicd_pilot_1"
 }
