@@ -34,11 +34,11 @@ variable "resource_group_location" {
 variable "nsg_name" {
   type        = string
   description = "westus3"
-  default = "nsg_cicd_pilot4"
+  default = "nsg_cicd_pilot"
 }
 
 variable "vnet_name" {
   type        = string
   description = "westus3"
-  default = "vnet_cicd_pilot4"
+  default = "vnet_cicd_pilot"
 }
