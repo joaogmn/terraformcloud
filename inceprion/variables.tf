@@ -22,14 +22,23 @@ variable "region" {
 variable "resource_group_name" {
   type        = string
   description = "tcbreakglass"
-  default = "tcbrakingglass2"
+ default     = "tcbreakglass"
 }
 
 variable "resource_group_location" {
   type        = string
-  description = "wedhfhstus3"
-  default = "westus3"
+  description = "westus3"
+  #default = "westus3"
 }
 
+variable "nsg_name" {
+  type        = string
+  description = "westus3"
+  default = "nsg_cicd_pilot1"
+}
 
-
+variable "vnet_name" {
+  type        = string
+  description = "westus3"
+  default = "vnet_cicd_pilot1"
+}
