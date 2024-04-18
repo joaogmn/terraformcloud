@@ -46,13 +46,13 @@ resource "azurerm_virtual_network" "validation" {
   name                = var.vnet_name
   location            = var.resource_group_location
   resource_group_name = var.resource_group_name
-  address_space       = ["10.0.0.0/16"]
+  address_space       = ["10.2.0.0/16"]
   dns_servers         = ["8.8.8.8", "4.4.2.2"]
   
   subnet  {
     name               = "sub-dev-darktrace-02"
     security_group     = azurerm_network_security_group.validation.id
-    address_prefix     = "10.0.1.0/24"
+    address_prefix     = "10.0.2.0/24"
   }
 
   tags = {
