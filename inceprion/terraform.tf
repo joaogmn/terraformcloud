@@ -34,14 +34,14 @@ resource "azurerm_resource_group" "validation" {
    }
 }
 
-/*
+
 resource "azurerm_network_security_group" "validation" {
   name                = var.nsg_name
   location            = var.resource_group_location
   resource_group_name = var.resource_group_name
 
   }
-
+/*
 
 resource "azurerm_virtual_network" "validation" {
 
