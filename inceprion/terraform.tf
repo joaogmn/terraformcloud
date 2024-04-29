@@ -33,7 +33,7 @@ resource "azurerm_resource_group" "validation" {
    
    }
 }
-
+/*
 
 resource "azurerm_network_security_group" "validation" {
   name                = var.nsg_name
@@ -41,7 +41,7 @@ resource "azurerm_network_security_group" "validation" {
   resource_group_name = var.resource_group_name
 
   }
-/*
+
 
 resource "azurerm_virtual_network" "validation" {
 
